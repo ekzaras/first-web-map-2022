@@ -6,3 +6,35 @@ var map = new mapboxgl.Map({
   center: [31.233334, 30.033333], // starting position as [lng, lat]
   zoom: 10
 });
+
+var popup = new mapboxgl.Popup({ offset: 40 })
+
+  .setHTML()
+
+//two options for markers
+var cairoZoom = [29.329033,29.388738]
+var marker = new mapboxgl.Marker({
+  color: # //come back to this
+})
+  .setlnglat([29.329033,29.388738])
+  .setPopup(popup)
+  .addTo(map);
+
+var pointsOfInterest = [
+  {//come up with data format for this
+    lngLat: [//an array]
+    popupHtml: []
+    subText: 'This is new'
+  }
+]
+
+pointsOfInterest.forEach(function(pointOfInterest){
+  var popup = new mapboxgl.Popup({ offset: 40 })
+  .setHTML(`
+    <h3>$(pointOfInterest.popup.Html`)</h3>);
+    <p>$(pointOfInterest)
+
+  new mapboxgl.Marker()
+  .setLngLat (pointOfInterest.lnglat)
+  .addTo(map);
+})

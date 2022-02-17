@@ -1,6 +1,6 @@
 $.getJSON('/data/gardendata.json', function(gardenData) {
   console.log(gardenData)
-  
+
     mapboxgl.accessToken = 'pk.eyJ1IjoiZWt6YXJhcyIsImEiOiJja3pxbHJuYzAzOWFzMm9xcmthNHhnOGFkIn0.GQ6837HQ8L2Jym-fwcXT5A'
 
     var cairoCenter = [31.233334, 30.033333]
@@ -16,7 +16,7 @@ var popupHTML = `
   <h3>${gardenData.gardenname}</h3>
   <p><b>History:</b> ${gardenData.subtext}
 `
-}
+});
 
 var popup = new mapboxgl.Popup({offset: 40})
 .setHTML(popupHTML);

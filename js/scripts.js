@@ -9,15 +9,16 @@ $.getJSON('/data/gardendata.json', function(gardenData) {
       center: cairoCenter, // starting position as [lng, lat]
       zoom: 11,
     });
+
 gardenData.forEach(function(gardenData) {
 var popup = new mapboxgl.Popup({
     offset: 40,
   })
-    .setHTML(<p>${gardenData.gardenname}${gardenData.subtext}</p>);
+    .setHTML(`<p>${gardenData.gardenname}${gardenData.subtext}</p>`);
 
 new mapboxgl.Marker()
       .setlnglat([gardenData.longitude, gardenData.latitude])
       .setPopup(popup)
       .addTo(map);
-
+   })
 })

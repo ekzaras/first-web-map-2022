@@ -20,3 +20,36 @@ new mapboxgl.Marker()
       .setlnglat([gardenData.longitude, gardenData.latitude])
       .setPopup(popup)
       .addTo(map);
+
+      var gardenData = [
+        {//come up with data format for this
+          lngLat: [31.227425,30.046398],//an array]
+          popupHtml: ['Al Andalus Garden'],
+          subText: 'Built by Zulfugar Pasha in 1929'
+        },
+        {//come up with data format for this
+          lngLat: [31.226781,30.042847],//an array]
+          popupHtml: ['Al Horreya Garden'],
+          subText: 'Originally part of larger green space of Gezira before development'
+        },
+        {//come up with data format for this
+          lngLat: [31.218619,30.056298],//an array]
+          popupHtml: ['Aquarium Grotto Garden'],
+          subText: 'Originally part of larger green space of Gezira before development'
+        },
+        {//come up with data format for this
+          lngLat: [31.218619,30.056298],//an array]
+          popupHtml: ['Al Azhar Park'],
+          subText: 'Originally part of larger green space of Gezira before development'
+        },
+        {//come up with data format for this
+          lngLat: [31.218619,30.056298],//an array]
+          popupHtml: ['Manial Garden'],
+          subText: 'Originally part of larger green space of Gezira before development'
+        },
+        {//come up with data format for this
+          lngLat: [31.218619,30.056298],//an array]
+          popupHtml: ['Orman Botanical Garden'],
+          subText: 'Originally part of larger green space of Gezira before development'
+        },
+      ]

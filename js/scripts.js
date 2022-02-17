@@ -12,21 +12,20 @@ $.getJSON('/data/gardendata.json', function(gardenData) {
     });
 //popups for Gardens
 gardenData.forEach(function(gardenData){
-var popupHTML = `
+  var popupHTML = `
   <h3>${gardenData.gardenname}</h3>
   <p><b>History:</b> ${gardenData.subtext}
-`
-});
+  `
+  }
 
-var popup = new mapboxgl.Popup({offset: 40})
-.setHTML(popupHTML);
+  var popup = new mapboxgl.Popup({offset: 40})
+  .setHTML(popupHTML);
 
 // Set all markers to medium green
-var color = '#7EB851'
+  var color = '#7EB851'
 
-new mapboxgl.Marker()
+  new mapboxgl.Marker()
       .setlnglat([gardenData.longitude, gardenData.latitude])
       .setPopup(popup)
       .addTo(map);
-   })
 })

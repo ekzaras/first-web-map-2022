@@ -1,37 +1,37 @@
-[
- {
-   "gardenname": "Al Andalus Garden",
-   "subtext": "Built by Zulfugar Pasha in 1929"
-   "longitude": 31.227425,
-   "latitude": 30.046398,
- },
- {
-   "gardenname": "Al Horreya Garden",
-   "subtext": "Originally part of larger green space of Gezira before development"
-   "longitude": 31.226781,
-   "latitude": 30.042847,
- },
- {
-   "gardenname": "Aquarium Grotto Garden",
-   "subtext": "Originally part of larger green space of Gezira before development"
-   "longitude": 31.218619,
-   "latitude": 30.056298,
- },
- {
-   "gardenname": "Al Azhar Park",
-   "subtext": "Originally part of larger green space of Gezira before development"
-   "longitude": 31.264803,
-   "latitude": 30.040440,
- },
- {
-   "gardenname": "Manial Garden",
-   "subtext": "Originally part of larger green space of Gezira before development"
-   "longitude": 31.229068,
-   "latitude": 30.027436,
- },
- {
-   "gardenname": "Orman Botanical Garden",
-   "subtext" "Originally part of larger green space of Gezira before development"
-   "longitude": 31.213473,
-   "latitude": 30.029225,
- },
+[{
+		"gardenname": "Al Andalus Garden",
+		"subtext": "Built by Zulfugar Pasha in 1929",
+		"longitude": 31.227425,
+		"latitude": 30.046398
+	},
+	{
+		"gardenname": "Al Horreya Garden",
+		"subtext": "Originally part of larger green space of Gezira before development",
+		"longitude": 31.226781,
+		"latitude": 30.042847
+	},
+	{
+		"gardenname": "Aquarium Grotto Garden",
+		"subtext": "Originally part of larger green space of Gezira before development",
+		"longitude": 31.218619,
+		"latitude": 30.056298
+	},
+	{
+		"gardenname": "Al Azhar Park",
+		"subtext": "Originally part of larger green space of Gezira before development",
+		"longitude": 31.264803,
+		"latitude": 30.040440
+	},
+	{
+		"gardenname": "Manial Garden",
+		"subtext": "Originally part of larger green space of Gezira before development",
+		"longitude": 31.229068,
+		"latitude": 30.027436
+	},
+	{
+		"gardenname": "Orman Botanical Garden",
+		"subtext": "Originally part of larger green space of Gezira before development",
+		"longitude": 31.213473,
+		"latitude": 30.029225
+	}
+]

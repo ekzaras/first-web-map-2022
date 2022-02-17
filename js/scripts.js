@@ -1,5 +1,4 @@
-$.getJSON('/data/gardendata.json', function(gardenData) {
-  console.log(gardenData)
+$.getJSON('/data/gardenrows.json', function(gardenRows) {
 
     mapboxgl.accessToken = 'pk.eyJ1IjoiZWt6YXJhcyIsImEiOiJja3pxbHJuYzAzOWFzMm9xcmthNHhnOGFkIn0.GQ6837HQ8L2Jym-fwcXT5A'
 
@@ -11,21 +10,19 @@ $.getJSON('/data/gardendata.json', function(gardenData) {
       zoom: 11
     });
 //popups for Gardens
-gardenData.forEach(function(gardenData){
+gardenRows.forEach(function(gardenRow){
   var popupHTML = `
-  <h3>${gardenData.gardenname}</h3>
-  <p><b>History:</b> ${gardenData.subtext}
+  <h3>${gardenRow.gardenname}</h3>
+  <p><b>History:</b> ${gardenRow.subtext}
   `
-  }
+})
 
   var popup = new mapboxgl.Popup({offset: 40})
-  .setHTML(popupHTML);
-
-// Set all markers to medium green
+  .setHTML(`popupHTML`);
   var color = '#7EB851'
 
   new mapboxgl.Marker()
-      .setlnglat([gardenData.longitude, gardenData.latitude])
+      .setLngLat([gardenRow.longitude, gardenRow.latitude])
       .setPopup(popup)
       .addTo(map);
 })

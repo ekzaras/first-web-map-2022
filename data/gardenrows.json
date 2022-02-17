@@ -1,37 +1,37 @@
 [
   {
 		"gardenname": "Al Andalus Garden",
-		"subtext": "Built by Zulfugar Pasha in 1929",
+		"subtext": "Built by Zulfugar Pasha in 1929, this garden was designed to resemble the gardens of the Alhambra of Granada. It is currently closed to the public.",
 		"longitude": 31.227425,
 		"latitude": 30.046398
 	},
 	{
 		"gardenname": "Al Horreya Garden",
-		"subtext": "Originally part of larger green space of Gezira before development",
+		"subtext": "Al Horreya was originally part of a larger argricultural zone of Gezira Island before development.",
 		"longitude": 31.226781,
 		"latitude": 30.042847
 	},
 	{
 		"gardenname": "Aquarium Grotto Garden",
-		"subtext": "Originally part of larger green space of Gezira before development",
+		"subtext": "The Aquarium Grotto Garden was established by Khedive Ismail in 1867.",
 		"longitude": 31.218619,
 		"latitude": 30.056298
 	},
 	{
 		"gardenname": "Al Azhar Park",
-		"subtext": "Originally part of larger green space of Gezira before development",
+		"subtext": "Al Azhar Park opened in 2005 and was designed and funded by the Historic Cities Support Programme of the Aga Khan Trust for Culture. It covers 30-hectares of land.",
 		"longitude": 31.264803,
 		"latitude": 30.040440
 	},
 	{
 		"gardenname": "Manial Garden",
-		"subtext": "Originally part of larger green space of Gezira before development",
+		"subtext": "The Manial Palace and Gardens were constructed by Prince Mohammed Ali Tewfik between 1899 and 1929.",
 		"longitude": 31.229068,
 		"latitude": 30.027436
 	},
 	{
 		"gardenname": "Orman Botanical Garden",
-		"subtext": "Originally part of larger green space of Gezira before development",
+		"subtext": "The Orman Botanical Garden was established in 1875 by Khedive Isma'il Pasha and designed by Jean-Pierre Barillet-Deschamps. It orginially was a citrus tree garden and covered 95.2 feddans.",
 		"longitude": 31.213473,
 		"latitude": 30.029225
 	}

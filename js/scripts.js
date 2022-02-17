@@ -1,7 +1,7 @@
 $.getJSON('/data/gardendata.json', function(gardenData) {
 $.getJSON('data/gardendata.json',function(gardenData){
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZWt6YXJhcyIsImEiOiJja3pobm50eDkwaWtvMnZtcHlnOWk5eHB5In0.jfdIdr4Pie4_IpMdk97t8Q'
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWt6YXJhcyIsImEiOiJja3pxbHJuYzAzOWFzMm9xcmthNHhnOGFkIn0.GQ6837HQ8L2Jym-fwcXT5A'
 
 var cairoCenter = [31.233334, 30.033333]
 var map = new mapboxgl.Map({

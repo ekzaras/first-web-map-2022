@@ -9,6 +9,28 @@ $.getJSON('data/gardenrows.json', function(gardenRows) {
       center: cairoCenter, // starting position as [lng, lat]
       zoom: 11
     });
+    map.addSource(
+      "type":"Feature",
+      "id":"OrmanToday",
+      "properties":{
+        "name":"OrmanOutline"},
+      "geometry":{
+        "type":"Polygon",
+        "coordinates":[
+          [
+            [31.210404,30.029536],
+            [31.210566,30.028884],
+            [31.211418,30.027986],
+            [31.211666,30.027932],
+            [31.215556,30.028503],
+            [31.216100,30.028957],
+            [31.216080,30.030074],
+            [31.215976,30.030218],
+            [31.215155,30.030510],
+            [31.214854,30.030758],
+            [31.210404,30.029536],
+            ]]}})
+
 //popups for Gardens
 gardenRows.forEach(function(gardenRow){
   var popup = new mapboxgl.Popup({offset: 40})

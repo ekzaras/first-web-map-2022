@@ -30,6 +30,28 @@ $.getJSON('data/gardenrows.json', function(gardenRows) {
             [31.214854,30.030758],
             [31.210404,30.029536],
             ]]}})
+  map.addLayer({
+  'id': 'OrmanToday',
+  'type': 'fill',
+  'source': 'OrmanToday', // reference the data source
+  'layout': {},
+  'paint': {
+  'fill-color': '#0080ff', // blue color fill
+  'fill-opacity': 0.5
+  }
+  });
+  // Add a black outline around the polygon.
+  map.addLayer({
+  'id': 'outline',
+  'type': 'line',
+  'source': 'OrmanToday',
+  'layout': {},
+  'paint': {
+  'line-color': '#000',
+  'line-width': 2
+  }
+  });
+  });
 
 //popups for Gardens
 gardenRows.forEach(function(gardenRow){

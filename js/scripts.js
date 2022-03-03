@@ -23,5 +23,8 @@ gardenRows.forEach(function(gardenRow){
       .addTo(map);
 })
 
+map.addSource('parkareas',{
+  type:
+})
 
 })

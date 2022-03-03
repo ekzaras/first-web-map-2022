@@ -21,10 +21,30 @@ gardenRows.forEach(function(gardenRow){
       .setLngLat([gardenRow.longitude, gardenRow.latitude])
       .setPopup(popup)
       .addTo(map);
-})
+    });
+map.on('load', () => {
+  map.addSource('parkareas',{
+    type:'geojson',
+    data: './data/parkareas.geojson'
+  });
 
-map.addSource('parkareas',{
-  type:
-})
-
+  map.addLayer({
+      'id': 'garden-fill-area', //administrative regional data from https://geodata.lib.utexas.edu/catalog/stanford-zh558jw1809
+      'type': 'fill',
+      'source': 'parkareas',
+      'paint': {
+        'fill-color': 'green', // blue color fill
+        'fill-opacity': 0.5,
+      }
+    })
+    map.addLayer({
+      'id': 'parkareasline',
+      'type': 'line',
+      'source': 'parkareas', // reference the data source
+      'paint': {
+        'line-color': '#0080ff', // blue color fill
+        'line-width': 0.5
+        }
+      })
+    });
 })

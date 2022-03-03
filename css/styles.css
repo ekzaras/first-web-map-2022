@@ -13,6 +13,29 @@
   margin-top: 35px;
 }
 
+/*trying to get the sidebar to overlay the map and scroll, without scrolling down the webpage or map
+/* #mapContainer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#legend {
+  background: rgba(18, 18, 18, 0.85);
+  position: absolute;
+  color: #d5d5d5;
+  width: 40%;
+  right: 0px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 1.2vw;
+  font-family: sans-serif;
+  line-height: 1.8vw;
+  z-index: 2;
+} */
+
+
 html, body {
   margin: 0;
   height: 100%;

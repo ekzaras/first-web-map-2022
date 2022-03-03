@@ -9,6 +9,7 @@ $.getJSON('data/gardenrows.json', function(gardenRows) {
       center: cairoCenter, // starting position as [lng, lat]
       zoom: 12
     });
+    
 
 //popups for Gardens
 gardenRows.forEach(function(gardenRow){

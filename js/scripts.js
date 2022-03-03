@@ -29,11 +29,11 @@ map.on('load', () => {
   });
 
   map.addLayer({
-      'id': 'garden-fill-area', //administrative regional data from https://geodata.lib.utexas.edu/catalog/stanford-zh558jw1809
+      'id': 'garden-fill-area', //
       'type': 'fill',
       'source': 'parkareas',
       'paint': {
-        'fill-color': 'green', // blue color fill
+        'fill-color': 'green', //
         'fill-opacity': 0.5,
       }
     })
@@ -42,7 +42,7 @@ map.on('load', () => {
       'type': 'line',
       'source': 'parkareas', // reference the data source
       'paint': {
-        'line-color': '#0080ff', // blue color fill
+        'line-color': 'black', // 
         'line-width': 0.5
         }
       })

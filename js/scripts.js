@@ -5,9 +5,9 @@ $.getJSON('data/gardenrows.json', function(gardenRows) {
     var cairoCenter = [31.233334, 30.033333]
     var map = new mapboxgl.Map({
       container: 'mapContainer', // HTML container id
-      style: 'mapbox://styles/mapbox/dark-v9', // style URL
+      style: 'mapbox://styles/mapbox/light-v10', // style URL
       center: cairoCenter, // starting position as [lng, lat]
-      zoom: 11
+      zoom: 12
     });
 
 //popups for Gardens
@@ -34,7 +34,7 @@ map.on('load', () => {
       'source': 'parkareas',
       'paint': {
         'fill-color': 'green', //
-        'fill-opacity': 0.5,
+        'fill-opacity': 0.3,
       }
     })
     map.addLayer({
@@ -42,7 +42,7 @@ map.on('load', () => {
       'type': 'line',
       'source': 'parkareas', // reference the data source
       'paint': {
-        'line-color': 'black', // 
+        'line-color': 'black', //
         'line-width': 0.5
         }
       })

@@ -1,73 +1,75 @@
-#mapContainer {
-  backgroundColor: #ccc;
-  flex-grow: 1;
-  margin: 0;
-  padding: 0;
-}
-
-#legend {
-  border: 1px solid #000000;
-  border-radius: 15px;
-  padding: 0px 15px 0px 15px;
-  display: inline-block;
-  margin-top: 35px;
-}
-
-/*trying to get the sidebar to overlay the map and scroll, without scrolling down the webpage or map
-/* #mapContainer {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-#legend {
-  background: rgba(18, 18, 18, 0.85);
-  position: absolute;
-  color: #d5d5d5;
-  width: 40%;
-  right: 0px;
-  padding: 20px;
-  box-sizing: border-box;
-  font-size: 1.2vw;
-  font-family: sans-serif;
-  line-height: 1.8vw;
-  z-index: 2;
-} */
-
-
 html, body {
   margin: 0;
   height: 100%;
+  padding: 0;
   font-family: arial,sans-serif;
-  background-color: #ffffff;
-  color: #000000;
+}
 
+#parent-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
 }
 
 a:hover {
   color: #000000;
+  cursor: pointer;
 }
 
 .container {
   display: flex;
-  height: 100%;
+  min-height: 0;
 }
 
 .sidebar {
   width: 400px;
   height: 100%;
-  padding: 10px 30px 15px 30px;
+  padding: 20px 15px;
   box-sizing: border-box;
+  text-align: left;
+  border-right: 1px;
+  display: flex;
+  flex-direction: column;
 }
+.sidebar-top {
+  flex-grow: 1;
+  border-bottom: 1px;
+  overflow: auto;
+}
+
+.scrollbar {
+margin-left: 30px;
+float: left;
+height: 300px;
+width: 65px;
+background: #fff;
+overflow-y: scroll;
+margin-bottom: 25px;
+}
+
 
 .sidebar h3 {
   font-size: 48px;
   font-weight: 800;
+  text-align: left;
   color: #000000;
 }
 /*fix sidebar image size*/
 .sidebar img {
   max-width: 100%;
 }
+
+#mapContainer {
+  backgroundColor: #ccc;
+  flex-grow: 1;
+}
+
+#legend {
+  padding: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  line-height: 18px;
+  height: 90px;
+  margin-bottom: 40px;
+  width: 170px;
 }

@@ -19,7 +19,7 @@ a:hover {
   cursor: pointer;
 }
 
-.container {
+.content-area {
   display: flex;
   min-height: 0;
   box-sizing: 100%;
@@ -62,6 +62,23 @@ margin-bottom: 25px;
 /*fix sidebar image size*/
 .sidebar img {
   max-width: 100%;
+}
+
+.garden-container {
+  border-bottom: 2px solid;
+  border-radius: 2px;
+  padding: 10px 9px;
+  background: #ffffff;
+  font-family: arial,sans-serif;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.garden-container:hover {
+background: #dcf7ee;
+}
+.garden-title {
+color: black;
 }
 
 #mapContainer {

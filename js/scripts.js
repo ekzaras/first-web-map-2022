@@ -7,7 +7,7 @@ $.getJSON('data/gardenrows.json', function(gardenRows) {
       container: 'mapContainer', // HTML container id
       style: 'mapbox://styles/mapbox/light-v10', // style URL
       center: cairoCenter, // starting position as [lng, lat]
-      zoom: 12
+      zoom: 12.5
     });
 
 
@@ -55,6 +55,8 @@ map.on('load', () => {
         center: [31.227425,30.046398],
         zoom: 15,
         });
+        $('#main-sidebar-content').hide();
+        $('#variable-sidebar-content-andalus').show();
     });
     $('#Horreya').on('click',function(){
       map.flyTo({
@@ -97,6 +99,10 @@ map.on('load', () => {
         center: [31.225715,30.046373],
         zoom: 15,
       });
+    });
+    $('#main-button').on('click',function(){
+      $('#main-sidebar-content').show();
+      $('#variable-sidebar-content').hide();
     });
 })
 //fly to garden

@@ -86,6 +86,14 @@ background: #dcf7ee;
 color: black;
 }
 
+.variable-sidebar {
+  font-size: 10px;
+  text-align: left;
+}
+.variable-sidebar h4 {
+  font-weight: bold;
+}
+
 /* .button-solid {
     border: none;
     background-color: #ffffff;

@@ -9,7 +9,7 @@ $.getJSON('data/gardenrows.json', function(gardenRows) {
       center: cairoCenter, // starting position as [lng, lat]
       zoom: 12
     });
-    
+
 
 //popups for Gardens
 gardenRows.forEach(function(gardenRow){
@@ -49,3 +49,12 @@ map.on('load', () => {
       })
     });
 })
+//fly to garden
+
+
+ $('#flyToAndalus').on('click', function() {
+   map.flyTo({
+    center: [31.227425,30.046398],
+    zoom: 15,
+    });
+});

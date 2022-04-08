@@ -64,22 +64,39 @@ margin-bottom: 25px;
   max-width: 100%;
 }
 
-.garden-container {
+.flyTo-button {
   border-bottom: 2px solid;
   border-radius: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   padding: 10px 9px;
   background: #ffffff;
   font-family: arial,sans-serif;
   margin-bottom: 8px;
   cursor: pointer;
+  outline: none;
 }
 
-.garden-container:hover {
+.flyTo-button:hover {
 background: #dcf7ee;
 }
+
 .garden-title {
 color: black;
 }
+
+/* .button-solid {
+    border: none;
+    background-color: #ffffff;
+}
+button-solid:focus {
+    border: none;
+    outline: none;
+}
+.button-solid:hover {
+background: #dcf7ee;
+} */
 
 #mapContainer {
   backgroundColor: #ccc;

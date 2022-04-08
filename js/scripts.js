@@ -86,5 +86,17 @@ map.on('load', () => {
         zoom: 15,
       });
     });
+    $('#Azbakeya').on('click',function(){
+      map.flyTo({
+        center: [31.248006,30.051821],
+        zoom: 15,
+      });
+    });
+    $('#Zohriya').on('click',function(){
+      map.flyTo({
+        center: [31.225715,30.046373],
+        zoom: 15,
+      });
+    });
 })
 //fly to garden

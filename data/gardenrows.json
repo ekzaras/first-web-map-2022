@@ -2,8 +2,8 @@
   {
 		"gardenname": "Al Andalus Garden",
 		"subtext": "Built by Zulfugar Pasha in 1929, this garden was designed to resemble the gardens of the Alhambra of Granada. It is currently closed to the public.",
-		"longitude": 31.227425,
-		"latitude": 30.046398
+		"longitude": 31.227415,
+		"latitude": 30.044213
 	},
 	{
 		"gardenname": "Al Horreya Garden",
@@ -34,5 +34,17 @@
 		"subtext": "The Orman Botanical Garden was established in 1875 by Khedive Isma'il Pasha and designed by Jean-Pierre Barillet-Deschamps. It orginially was a citrus tree garden and covered 95.2 feddans.",
 		"longitude": 31.213473,
 		"latitude": 30.029225
-	}
+	},
+  {
+    "gardenname": "Azbakeya Garden",
+    "subtext": "Once a cental node for upper class sociability, this garden has been reduced to almost nothing.",
+    "longitude": 31.248006,
+    "latitude": 30.051821
+  },
+  {
+    "gardenname": "Al Zohriya Garden",
+    "subtext": "Although this garden appears small today, nearly the entire island of Zamalek was a botanical garden and testing ground for plant acclimatization. The Al Zohriya Garden was the site of greenhouses crucial to Ismail's program of importing and experimenting with new seeds.",
+    "longitude": 31.225715,
+    "latitude": 30.046373
+  }
 ]

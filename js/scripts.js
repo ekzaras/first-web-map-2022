@@ -37,7 +37,7 @@ map.on('load', () => {
         'fill-color': 'green', //
         'fill-opacity': 0.3,
       }
-    })
+    });
     map.addLayer({
       'id': 'parkareasline',
       'type': 'line',
@@ -48,13 +48,13 @@ map.on('load', () => {
         }
       })
     });
+    // function flyToDisplayHistory //fly to each garden when click button and display info in side par
+    //   var map = mapboxgl.
+     $('#Andalus').on('click', function() {
+       map.flyTo({
+        center: [31.227425,30.046398],
+        zoom: 15,
+        });
+    });
 })
 //fly to garden
-
-
- $('#Andalus').on('click', function() {
-   map.flyTo({
-    center: [31.227425,30.046398],
-    zoom: 15,
-    });
-});

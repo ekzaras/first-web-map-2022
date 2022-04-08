@@ -52,7 +52,7 @@ map.on('load', () => {
 //fly to garden
 
 
- $('#flyToAndalus').on('click', function() {
+ $('#Andalus').on('click', function() {
    map.flyTo({
     center: [31.227425,30.046398],
     zoom: 15,

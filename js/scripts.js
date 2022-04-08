@@ -63,46 +63,68 @@ map.on('load', () => {
         center: [31.226781,30.042847],
         zoom: 15,
       });
+      $('#main-sidebar-content').hide();
+      $('#variable-sidebar-content-horreya').show();
     });
     $('#Grotto').on('click',function(){
       map.flyTo({
         center: [31.218619,30.056298],
         zoom: 15,
       });
+      $('#main-sidebar-content').hide();
+      $('#variable-sidebar-content-grotto').show();
     });
     $('#Azhar').on('click',function(){
       map.flyTo({
         center: [31.264803,30.040440],
         zoom: 15,
       });
+      $('#main-sidebar-content').hide();
+      $('#variable-sidebar-content-azhar').show();
     });
     $('#Manial').on('click',function(){
       map.flyTo({
         center: [31.229068,30.027436],
         zoom: 15,
       });
+      $('#main-sidebar-content').hide();
+      $('#variable-sidebar-content-manial').show();
     });
     $('#Orman').on('click',function(){
       map.flyTo({
         center: [31.213473,30.029225],
         zoom: 15,
       });
+      $('#main-sidebar-content').hide();
+      $('#variable-sidebar-content-orman').show();
     });
     $('#Azbakeya').on('click',function(){
       map.flyTo({
         center: [31.248006,30.051821],
         zoom: 15,
       });
+      $('#main-sidebar-content').hide();
+      $('#variable-sidebar-content-azbakeya').show();
     });
     $('#Zohriya').on('click',function(){
       map.flyTo({
         center: [31.225715,30.046373],
         zoom: 15,
       });
+      $('#main-sidebar-content').hide();
+      $('#variable-sidebar-content-zohriya').show();
     });
     $('#main-button').on('click',function(){
       $('#main-sidebar-content').show();
-      $('#variable-sidebar-content').hide();
+      $('#variable-sidebar-content-andalus').hide();
+    });
+    $('#main-button-two').on('click',function(){
+      $('#main-sidebar-content').show();
+      $('#variable-sidebar-content-horreya').hide();
+    });
+    $('#main-button-azbakeya').on('click',function(){
+      $('#main-sidebar-content').show();
+      $('#variable-sidebar-content-azbakeya').hide();
     });
 })
 //fly to garden

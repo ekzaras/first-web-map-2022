@@ -56,5 +56,35 @@ map.on('load', () => {
         zoom: 15,
         });
     });
+    $('#Horreya').on('click',function(){
+      map.flyTo({
+        center: [31.226781,30.042847],
+        zoom: 15,
+      });
+    });
+    $('#Grotto').on('click',function(){
+      map.flyTo({
+        center: [31.218619,30.056298],
+        zoom: 15,
+      });
+    });
+    $('#Azhar').on('click',function(){
+      map.flyTo({
+        center: [31.264803,30.040440],
+        zoom: 15,
+      });
+    });
+    $('#Manial').on('click',function(){
+      map.flyTo({
+        center: [31.229068,30.027436],
+        zoom: 15,
+      });
+    });
+    $('#Orman').on('click',function(){
+      map.flyTo({
+        center: [31.213473,30.029225],
+        zoom: 15,
+      });
+    });
 })
 //fly to garden

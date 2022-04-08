@@ -28,7 +28,7 @@ map.on('load', () => {
     type:'geojson',
     data: './data/parkareas.geojson'
   });
-
+//polygons of present-day garden area 
   map.addLayer({
       'id': 'garden-fill-area', //
       'type': 'fill',
@@ -48,8 +48,7 @@ map.on('load', () => {
         }
       })
     });
-    // function flyToDisplayHistory //fly to each garden when click button and display info in side par
-    //   var map = mapboxgl.
+    // function flyTo //fly to each garden when click button and display info in side par //looked to renata's work as an example! Also the 'biodiversity in indonesia' map from 2021
      $('#Andalus').on('click', function() {
        map.flyTo({
         center: [31.227425,30.046398],
@@ -114,6 +113,7 @@ map.on('load', () => {
       $('#main-sidebar-content').hide();
       $('#variable-sidebar-content-zohriya').show();
     });
+    // return to list buttons
     $('#main-button').on('click',function(){
       $('#main-sidebar-content').show();
       $('#variable-sidebar-content-andalus').hide();

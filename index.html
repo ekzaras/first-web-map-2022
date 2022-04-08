@@ -10,7 +10,7 @@
   <!-- add a favicon which will appear in browser tabs -->
   <link rel="shortcut icon" href="./images/favicon.ico">
 
-  <!-- CSS for google fonts, bootstrap, mapboxgl, mapboxgl geocoder, plus local styles // copied from example-->
+  <!-- CSS for google fonts, bootstrap, mapboxgl, mapboxgl geocoder, local styles // copied from example-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -29,13 +29,13 @@
     <div class='sidebar'>
 
       <div class='sidebar-top'>
-
+<!-- sidebar with main content/intro content and list of buttons to flyto gardens  -->
         <div id='main-sidebar-content'>
           <h3>Cairo Gardens</h3>
 
-            <p><small> Cairo expanded rapidly in the nineteenth century. Prior to this expansion, the old city center was located on the eastern side of the Nile River and much of the surrounding area had been cultivated farmland. Urban expansion encroached on these farmlands, but Mehmet Ali and Ibrahim Pasha established urban gardens for the cultivation of a wide variety of plants and trees by the 1830s. The construction of the Ismailia Canal in the late 1860's diverted water from the Nile and allowed previously flooded land on the Island of Zamalek and on the western edge of the Nile to be reclaimed. Isma'il Pasha used these newly reclaimed lands to establish vast botanical gardens, and by the end of the century, Cairo became a site for seed collection and agricultural research. This map highlights these gardens established during the nineteenth and early twentieth centuries. The highlighted area is what remains today. Click on a marker to see historic maps and key information.</small></p>
+            <p><small> Cairo expanded rapidly in the nineteenth century. Prior to this expansion, the old city center was located on the eastern side of the Nile River and much of the surrounding area had been cultivated farmland. Urban expansion encroached on these farmlands, but Mehmet Ali and Ibrahim Pasha established urban gardens for the cultivation of a wide variety of plants and trees by the 1830s. The construction of the Ismailia Canal in the late 1860's diverted water from the Nile and allowed previously flooded land on the Island of Zamalek and on the western edge of the Nile to be reclaimed. Isma'il Pasha used these newly reclaimed lands to establish vast botanical gardens, and by the end of the century, Cairo became a site for seed collection and agricultural research. This map highlights these gardens established during the nineteenth and early twentieth centuries. <br></br><b>However,</b> gardens throughout the country have been shrinkin, and trees systematically cut down. The highlighted area is what remains today of Cairo's oldest public gardens. <br></br><b>Click</b> on a garden from the list below see historic maps and key historical information.</small></p>
             <!-- buttons -->
-           <!-- <div class='button-area'>
+           <!-- buttons flyto and also will show more detailed info in the sidebar>
              <p></p> -->
              <button id='Andalus' class='flyTo-button'>
                <div class='garden-title'> Al Andalus Garden </div>
@@ -70,6 +70,7 @@
              </button>
 
         </div>
+        <!-- sidebar info specific to each garden that will replace main content when button is clicked -->
         <div id='variable-sidebar-content-andalus' class='variable-sidebar'>
           <h4>Al Andalus Garden<h4>
             <p></p>

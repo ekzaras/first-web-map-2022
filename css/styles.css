@@ -102,6 +102,41 @@ color: black;
   text-align:left;
   font-weight: normal;
 }
+/* for image carousel https://www.w3docs.com/snippets/css/how-to-create-an-image-slider-or-slideshow.html#slide-2 */
+.slider {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+.image-container {
+  width: 1500px;
+  height: 300px;
+  position: relative;
+}
+.slide {
+  float: left;
+  position: relative;
+}
+#slide-1:target ~ .image-container {
+  left: 0px;
+}
+#slide-2:target ~ .image-container {
+  left: -500px;
+}
+#slide-3:target ~ .image-container {
+  left: -1000px;
+}
+.buttons {
+  position: relative;
+  top: -20px;
+}
+.buttons a {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background-color: lightgreen;
+}
 
 /* .button-solid {
     border: none;

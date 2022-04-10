@@ -28,7 +28,7 @@ map.on('load', () => {
     type:'geojson',
     data: './data/parkareas.geojson'
   });
-//polygons of present-day garden area 
+//polygons of present-day garden area
   map.addLayer({
       'id': 'garden-fill-area', //
       'type': 'fill',
@@ -116,15 +116,15 @@ map.on('load', () => {
     // return to list buttons
     $('#main-button').on('click',function(){
       $('#main-sidebar-content').show();
-      $('#variable-sidebar-content-andalus').hide();
+      $('.variable-sidebar').hide();
     });
-    $('#main-button-two').on('click',function(){
-      $('#main-sidebar-content').show();
-      $('#variable-sidebar-content-horreya').hide();
-    });
-    $('#main-button-azbakeya').on('click',function(){
-      $('#main-sidebar-content').show();
-      $('#variable-sidebar-content-azbakeya').hide();
-    });
+    // $('#main-button-two').on('click',function(){
+    //   $('#main-sidebar-content').show();
+    //   $('#variable-sidebar-content-horreya').hide();
+    // });
+    // $('#main-button-azbakeya').on('click',function(){
+    //   $('#main-sidebar-content').show();
+    //   $('#variable-sidebar-content-azbakeya').hide();
+    // });
 })
 //fly to garden

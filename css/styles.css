@@ -92,6 +92,7 @@ color: black;
 .variable-sidebar {
   font-size: 10px;
   text-align: left;
+  display: none;
 }
 .variable-sidebar h4 {
   font-weight: bold;

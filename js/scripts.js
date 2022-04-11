@@ -15,8 +15,7 @@ $.getJSON('data/gardenrows.json', function(gardenRows) {
 gardenRows.forEach(function(gardenRow){
   var popup = new mapboxgl.Popup({offset: 40})
   .setHTML(`
-  <h3>${gardenRow.gardenname}</h3>
-  <p><b>History:</b> ${gardenRow.subtext}
+  <p><b>${gardenRow.gardenname}</b></p>
   `);
   new mapboxgl.Marker()
       .setLngLat([gardenRow.longitude, gardenRow.latitude])

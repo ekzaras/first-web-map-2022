@@ -126,9 +126,65 @@ color: black;
 #slide-3:target ~ .image-container {
   left: -1000px;
 }
+#slide-4:target ~ .image-container {
+  left: 0px;
+}
+#slide-5:target ~ .image-container {
+  left: -500px;
+}
+#slide-6:target ~ .image-container {
+  left: -1000px;
+}
+#slide-7:target ~ .image-container {
+  left: 0px;
+}
+#slide-8:target ~ .image-container {
+  left: -500px;
+}
+#slide-9:target ~ .image-container {
+  left: -1000px;
+}
+#slide-10:target ~ .image-container {
+  left: 0px;
+}
+#slide-11:target ~ .image-container {
+  left: -500px;
+}
+#slide-12:target ~ .image-container {
+  left: -1000px;
+}
+#slide-13:target ~ .image-container {
+  left: 0px;
+}
+#slide-14:target ~ .image-container {
+  left: -500px;
+}
+#slide-15:target ~ .image-container {
+  left: -1000px;
+}
+#slide-16:target ~ .image-container {
+  left: 0px;
+}
+#slide-17:target ~ .image-container {
+  left: -500px;
+}
+#slide-18:target ~ .image-container {
+  left: -1000px;
+}
+#slide-19:target ~ .image-container {
+  left: 0px;
+}
+#slide-20:target ~ .image-container {
+  left: -500px;
+}
+#slide-21:target ~ .image-container {
+  left: -1000px;
+}
 .buttons {
   position: relative;
   top: -20px;
+  display: flex;
+  justify-content: center;
 }
 .buttons a {
   display: inline-block;
@@ -136,6 +192,7 @@ color: black;
   width: 15px;
   border-radius: 50px;
   background-color: lightgreen;
+  margin: 3px;
 }
 
 /* .button-solid {

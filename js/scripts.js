@@ -117,6 +117,10 @@ map.on('load', () => {
     $('#main-button').on('click',function(){
       $('#main-sidebar-content').show();
       $('.variable-sidebar').hide();
+      map.flyTo({
+        center: [31.233334, 30.033333],
+        zoom: 12,
+      });
     });
     // $('#main-button-two').on('click',function(){
     //   $('#main-sidebar-content').show();
